@@ -1,0 +1,345 @@
+/* 顶部列表 ---------------------------------------------------------------*/
+#top-menu{
+    width: 100%;
+    height: 48px;
+    background-color: #1474a4;}
+.top-menu-m{
+    width: 960px;
+    height: 48px;
+    background-color: #1474a4;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-img{
+    width: 98px;
+    height: 48px;
+    background-color: #fff;
+    position: relative;
+}
+.logo-img img{
+    display: block;
+    width: 85px;
+    height: 16px;
+    position: absolute;
+    top: 16px;
+    left: 7px;
+}
+.menu-list{
+    width: 860px;
+    height: 48px;
+    background-color: #1474a4;
+    position: absolute;
+    left: 98px;
+    top: 0;
+    display: block;
+}
+.menu-search{
+    width: 28px;
+    height: 28px;
+    float: right;}
+.menu-sousuo{float: right;}
+.menu-list-ctn ul li{
+    float: left;
+    height: 48px;
+    line-height: 48px;
+}
+.menu-list-ctn ul li span{
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 10px;}
+.top-search{
+    width: 860px;
+    height: 48px;
+    background-color: #1474a4;
+    position: absolute;
+    left: 98px;
+    top: 0;
+    display: none;
+    }
+.menu-box-sousuo{
+    margin: 0 12px;
+}
+.top-search-input{
+    height: 36px;
+    width: 760px;
+    background: #1474a4;
+    border-width: 0;
+    margin: 0 6px;
+    outline: none;}
+.top-search-input::-webkit-input-placeholder { 
+    color:    #ccc;
+    font-size: 18px;
+}
+.top-search-input:-moz-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+}
+.top-search-input::-moz-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+}
+.top-search-input:-ms-input-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+}
+
+
+/* 登录窗口---------------------------------------------- */
+#login-window{
+    width: 100%;
+    height: 592px;
+    /* background-color: #0066a1; */
+    
+}
+.login-item{
+    width: 100%;
+    height: 592px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.login-item-img{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+}
+.login-item-img-bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.login-item-img-bg picture{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.login-item-img-bg picture img{
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+}
+
+/* ------ */
+.login-win-ctn{
+    width: 960px;
+    height: 592px;
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid red */
+}
+.login-ctn-p{
+    width: 580px;
+    height: 160px;
+    /* border: 1px solid #fff; */
+    position: absolute;
+    left: 0;top: 180px;
+}
+.login-ctn-p span{
+    font-size: 48px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+
+.login-font{
+    width: 360px;
+    height: 275px;
+    
+    position: absolute;
+    right: 0;
+    top: 130px;
+    background-color: #fff;
+
+}
+
+/* 登录选择窗口--------------------------------------------- */
+.pwd-login-ctn{display: block;}
+.login-change{
+    width: 100%;
+    height: 45px;
+    
+}
+.login-change-p1{
+    width: 180px;
+    height: 45px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    color: #1474a4;}
+
+.login-change-p2{
+    width: 180px;
+    height: 45px;
+    float: left;
+    text-align: center;
+    line-height: 45px;
+    color: #1474a4;
+    background:#adbbca;
+    color: #fff;}
+
+    
+
+
+
+
+.login-change-p span{
+    
+    font-size: 16px;
+    font-weight: 500;
+}
+.int-sty{
+    width: 300px;
+    height: 40px;
+    margin: 12px 30px;
+    outline: none;
+}
+.int-sty::-webkit-input-placeholder { 
+    color:    #ccc;
+    font-size: 18px;
+       
+}
+.int-sty:-moz-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+   
+}
+.int-sty::-moz-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+   
+}
+.int-sty:-ms-input-placeholder { 
+   color:    #ccc;
+   font-size: 18px;
+   
+}
+.login-ctn-new{
+    width: 300px;
+    height: 20px;
+    margin: 0 30px;
+    position: relative;
+}
+.login-ctn-new span{
+    font-size: 14px;
+    color:  #1474a4;
+}
+.login-ctn-new span:hover{text-decoration: underline;}
+.login-ctn-new-left{
+    position: absolute;
+    left: 0;
+}
+.login-ctn-new-right{
+    position: absolute;
+    right: 0;
+}
+.loginbox{
+    width: 300px;
+    height: 40px;
+    background-color: #1474a4;
+    border-radius: 0.5px;
+    margin: 10px 30px;
+    text-align: center;
+    line-height: 40px;    
+}
+#sub{
+    font-size: 16px;
+    color:#fff;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    background-color: #1474a4;
+    border-width: 0;
+    
+}
+/* short------------- */
+.short-login-ctn{display: none;}
+
+
+/* 底部列表 -----------------------------------------------*/
+#end-list{
+    width: 100%;
+    height: 180px;
+}
+.end-list{
+    width: 960px;
+    height: 130px;
+    padding: 25px 0;
+    /* background-color: #ccc; */
+    margin: 0 auto;
+}
+.end-ctn{
+    width: 159px;
+    height: 130px;
+    background-color: #fff;
+    float: left;
+    border-right: 1px solid #ccc;
+    text-align: center;
+}
+.end-ctn dt{
+    font-size: 16px;
+    font-weight: 500;
+    color: #1474a4;
+    margin-bottom: 8px;
+}
+.end-ctn dl{
+    width: 158px;
+    height: 20px;
+    margin: 8px 0; 
+    float: left;
+    text-align: center;
+    line-height: 16px;
+}
+.end-ctn span{
+    font-size: 14px;
+    color: #999;
+    
+}
+#ftooer{
+    width: 100%;
+    height: 280px;
+    color: #fff;
+    background-color: #0096ee;
+    background-repeat: repeat-x;
+    background: linear-gradient(to bottom right,#003655 0,#0066a1 50%,#0096ee 100%);}
+.ftooer-item{
+    width: 960px;
+    height: 280px;
+    margin: 0 auto;
+
+}
+.footer-ctn{
+    position: relative;
+
+}
+.vb-link{
+    width: 420px;
+    height: 140px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+.ph-icon{
+    width: 110px;
+    height: 140px;
+    position: absolute;
+    top: 70px;
+    left: 425px;
+}
+.language{
+    width: 420px;
+    height: 140px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+.language span{
+    float: right;
+}

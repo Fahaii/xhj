@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../lib/font_iposzdb7vr/iconfont.css">
+</head>
+<body>
+    <script src="../js/public.js"></script>
+    <!-- 顶部导航------------------------------------------------------------ -->
+    <div id="top-menu">
+        <div class="top-menu-m">
+            <div class="logo">
+                <a href="">
+                    <div class="logo-img">
+                        <img src="../img/wordmark_2x.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div id="menu-list" class="menu-list">
+                <div class="menu-list-ctn">
+                    <ul>
+                        <li id="list-icon"><span>产品</span></li>
+                        <li id="list-product"><span>专业类产品</span></li>
+                        <a href=""><li><span>会员商城</span></li></a>
+                        <li id="list-contacts"><span>售后服务</span></li>
+                        <li id="list-about"><span>联系我们</span></li>
+                        <a href=""><li><span>关于飞利浦</span></li></a>
+                        <a href=""><li><span>飞利浦俱乐部</span></li></a>
+                    </ul>
+                </div>
+                <div id="topsearch" class="menu-search"><span class="icon iconfont icon-sousuo menu-sousuo"></span></div>
+            </div>
+            <div id="top-search" class="top-search">
+                <div class="top-search-box">
+                    <span class="icon iconfont icon-sousuo menu-box-sousuo"></span>
+                    <input class="top-search-input" type="text" placeholder="为您的产品寻找手册、常见问题及软件更新">
+                    <span id="topclose" class="icon iconfont icon-iconfontclose"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 登录窗口 ------------------------------------------------------------------>
+    <div id="login-window">
+        <div class="login-item">
+            <div class="login-item-img">
+                <div class="login-item-img-bg">
+                    <picture>
+                        <img src="../img/login.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="login-win-ctn">
+                    <div class="login-ctn-p">
+                        <span>欢迎登陆</span><br>
+                        <span>飞利浦中国会员商城</span>
+                    </div>
+                    <div class="login-font">
+                        <div class="login-change">
+                            <div id="pwd-login" class="login-change-p1"><span>密码登录</span></div>
+                            <div id="shrot-login"  class="login-change-p2"><span>验证码登录</span></div>
+                        </div>
+                        <form action="login.php" method="POST">
+                        <div id="pwd-login-ctn" class="pwd-login-ctn">
+                            <div><input class="int-sty" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;用户名/手机"></div>
+                            <div><input class="int-sty" type="password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;密码"></div>
+                            <div class="login-ctn-new">
+                                <a href=""><span class="login-ctn-new-left">新会员注册</span></a>
+                                <a href=""><span class="login-ctn-new-right">忘记密码？</span></a></div>
+                            <div class="loginbox"><input type="submit" id="sub" value="登录"></div>
+                            
+                        </div>
+                        <div id="short-login-ctn" class="short-login-ctn">
+                            <div><input class="int-sty" name="username" type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;手机号码"></div>
+                            <div><input class="int-sty" naem="password" type="password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;手机验证码"></div>
+                            <div class="login-ctn-new">
+                                <a href=""><span class="login-ctn-new-left">新会员注册</span></a>
+                                <a href=""><span class="login-ctn-new-right">忘记密码？</span></a></div>
+                            <div class="loginbox"><input type="submit" id="sub" value="登录"></div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- 底部列表------------------------------------------------------------- -->
+    <div id="end-list">
+        <div class="end-list">
+            <div class="end-ctn">
+                <dt>在线帮助</dt>
+                <dl><a href=""><span>常见问题</span></a></dl>
+                <dl><a href=""><span>联系我们</span></a></dl>
+            </div>
+            <div class="end-ctn">
+                <dt>订单说明</dt>
+                <dl><a href=""><span>如何订购</span></a></dl>
+                <dl><a href=""><span>订单状态</span></a></dl>
+                <dl><a href=""><span>订单查询</span></a></dl>
+            </div>
+            <div class="end-ctn">
+                <dt>支付方式</dt>
+                <dl><a href=""><span>微信</span></a></dl>
+                <dl><a href=""><span>支付宝</span></a></dl>
+            </div>
+            <div class="end-ctn">
+                <dt>货物配送</dt>
+                <dl><a href=""><span>配送时间</span></a></dl>
+                <dl><a href=""><span>商品验货签收</span></a></dl>
+            </div>
+            <div class="end-ctn">
+                <dt>售后服务</dt>
+                <dl><a href=""><span>退换货政策</span></a></dl>
+                <dl><a href=""><span>退换货流程</span></a></dl>
+                <dl><a href=""><span>7天无理由退换</span></a></dl>
+            </div>
+            <div class="end-ctn" style="border:none">
+                <dt>服务热线</dt>
+                <dl><a href=""><span>飞利浦官网</span></a></dl>
+                <dl><a href=""><span>400-880-0008</span></a></dl>
+            </div>
+        </div>
+    </div>
+    <!-- 底部信息-------------------------------------------------------------- -->
+    <div id="ftooer">
+        <div class="ftooer-item">
+            <div class="footer-ctn">
+                <div class="vb-link">
+                    <span>
+                        关注飞利浦微博
+                    </span>
+                </div>
+                <div class="ph-icon"><img src="../img/philips-footer-logo.png" alt=""></div>
+                <div class="language">
+                    <span>选择国家地区或语言</span><br>
+                    <span>选择站点</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="../js/login.js"></script>
+</body>
+</html>
